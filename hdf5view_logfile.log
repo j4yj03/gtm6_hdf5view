@@ -1,0 +1,141 @@
+2023-10-13 17:49:37,828 - root - INFO - Hello HDF5Viewer logfile!
+2023-10-13 17:49:37,868 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 17:49:37.868133
+2023-10-13 17:57:41,733 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 17:57:41.733494
+2023-10-13 17:57:44,829 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 17:57:44,831 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 17:57:49,878 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z']
+2023-10-13 17:57:52,072 - root - DEBUG - []
+2023-10-13 17:58:01,070 - root - DEBUG - open menu {}
+2023-10-13 17:58:06,685 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:07:43,143 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 18:07:43.143229
+2023-10-13 18:07:45,891 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 18:07:45,893 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 18:07:48,239 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z']
+2023-10-13 18:07:49,359 - root - DEBUG - open menu {}
+2023-10-13 18:07:53,642 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:07:53,705 - root - ERROR - Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\hdf5view.py", line 692, in plot_data
+    logfile_selected.plotSensors(self.selected_devices_x, self.selected_devices_y)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\GTM6\LogFile.py", line 231, in plotSensors
+    delta = pd.Timedelta(milliseconds=ms)
+  File "timedeltas.pyx", line 1761, in pandas._libs.tslibs.timedeltas.Timedelta.__new__
+  File "timedeltas.pyx", line 940, in pandas._libs.tslibs.timedeltas._to_py_int_float
+TypeError: Invalid type <class 'dict'>. Must be int or float.
+
+2023-10-13 18:08:32,981 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 18:08:32.981082
+2023-10-13 18:08:35,735 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 18:08:35,737 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 18:08:37,314 - root - DEBUG - open menu {}
+2023-10-13 18:08:44,778 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z']
+2023-10-13 18:08:45,755 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:08:54,307 - root - DEBUG - open menu {}
+2023-10-13 18:08:59,802 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:08:59,858 - root - ERROR - Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\hdf5view.py", line 692, in plot_data
+    logfile_selected.plotSensors(self.selected_devices_x, self.selected_devices_y)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\GTM6\LogFile.py", line 231, in plotSensors
+    delta = pd.Timedelta(milliseconds=ms)
+  File "timedeltas.pyx", line 1761, in pandas._libs.tslibs.timedeltas.Timedelta.__new__
+  File "timedeltas.pyx", line 940, in pandas._libs.tslibs.timedeltas._to_py_int_float
+TypeError: Invalid type <class 'str'>. Must be int or float.
+
+2023-10-13 18:09:16,886 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 18:09:16.886670
+2023-10-13 18:09:19,375 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 18:09:19,377 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 18:09:22,387 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z']
+2023-10-13 18:09:23,045 - root - DEBUG - open menu {}
+2023-10-13 18:09:27,766 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:09:45,909 - root - DEBUG - open menu {}
+2023-10-13 18:09:50,780 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:10:06,550 - root - DEBUG - open menu {}
+2023-10-13 18:10:11,357 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:10:23,814 - root - DEBUG - open menu {}
+2023-10-13 18:10:31,910 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z', 'SENSOR2']
+2023-10-13 18:10:32,901 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:10:58,737 - root - DEBUG - open menu {}
+2023-10-13 18:11:01,208 - root - DEBUG - []
+2023-10-13 18:11:12,442 - root - DEBUG - open menu {}
+2023-10-13 18:14:13,097 - root - DEBUG - Script version 2023.09.28 start at 2023-10-13 18:14:13.097490
+2023-10-13 18:14:15,920 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 18:14:15,920 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 18:14:16,735 - root - DEBUG - open menu {}
+2023-10-13 18:14:22,008 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z']
+2023-10-13 18:14:22,840 - root - DEBUG - []
+2023-10-13 18:14:25,304 - root - DEBUG - open menu {}
+2023-10-13 18:14:33,824 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:14:45,120 - root - DEBUG - open menu {}
+2023-10-13 18:14:55,120 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:01,330 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:09,140 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39
+2023-10-13 18:15:10,113 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:20,124 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:45
+2023-10-13 18:15:21,170 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:28,604 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:45
+2023-10-13 18:15:30,491 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:40,869 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:50
+2023-10-13 18:15:41,980 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:15:51,317 - root - DEBUG - Selected DateTime: 2023-06-09 10:51:50
+2023-10-13 18:15:52,003 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:16:01,196 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:16:07,654 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z', 'SENSOR2']
+2023-10-13 18:16:08,464 - root - ERROR - Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\hdf5view.py", line 690, in plot_data
+    logfile_selected.loadSensorData(data_label_list=sensor_list, duration_s=time_s, reload_anyway=new_duration)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\GTM6\LogFile.py", line 178, in loadSensorData
+    tmp_dataFrame = pd.DataFrame(data=data, index=self.dataFrameTSIndex).sort_index()
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\frame.py", line 736, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 119, in arrays_to_mgr
+    arrays, refs = _homogenize(arrays, index, dtype)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 630, in _homogenize
+    com.require_length_match(val, index)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\common.py", line 561, in require_length_match
+    raise ValueError(
+ValueError: Length of values (0) does not match length of index (48482)
+
+2023-10-13 18:16:11,677 - root - ERROR - Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\hdf5view.py", line 690, in plot_data
+    logfile_selected.loadSensorData(data_label_list=sensor_list, duration_s=time_s, reload_anyway=new_duration)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\GTM6\LogFile.py", line 178, in loadSensorData
+    tmp_dataFrame = pd.DataFrame(data=data, index=self.dataFrameTSIndex).sort_index()
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\frame.py", line 736, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 119, in arrays_to_mgr
+    arrays, refs = _homogenize(arrays, index, dtype)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\internals\construction.py", line 630, in _homogenize
+    com.require_length_match(val, index)
+  File "C:\Program Files\Python39\lib\site-packages\pandas\core\common.py", line 561, in require_length_match
+    raise ValueError(
+ValueError: Length of values (0) does not match length of index (48482)
+
+2023-10-13 18:16:32,675 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Matzdorf-1200_TT02-20230609-124840.h5 has no cuts information
+2023-10-13 18:16:32,675 - root - DEBUG - Selected DateTime: 2023-06-09 10:50:39.774959
+2023-10-13 18:16:34,919 - root - DEBUG - Selected Devices: ['TIME'] ['GRAVER_Z', 'SENSOR2']
+2023-10-13 18:16:37,599 - root - DEBUG - open menu {}
+2023-10-13 18:16:40,090 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:17:37,518 - root - ERROR - Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "d:\WorkWork\HZB\GTM6\HDF5\gtm6_logview\hdf5view.py", line 547, in browse_directory
+    self.update_datetime_result(self.logfile_lst[0].getStartTime())
+IndexError: list index out of range
+
+2023-10-13 18:17:41,124 - root - DEBUG - gtm6 log D:\WorkWork\HZB\GTM6\HDF5\Gleitlager-1200_TT01-20230609-133734.h5 has no cuts information
+2023-10-13 18:17:41,124 - root - DEBUG - Selected DateTime: 2023-06-09 11:39:33.888235
+2023-10-13 18:18:00,640 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:18:12,250 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:19:39,679 - root - DEBUG - ['plot smoothed gradient']
+2023-10-13 18:20:17,480 - root - DEBUG - open menu {}
+2023-10-13 18:24:16,876 - root - DEBUG - open menu {}

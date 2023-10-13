@@ -1,0 +1,36 @@
+{
+    "0": 
+    {
+        "name": "sample frequency", 
+        "value" : 
+        {
+            "Fs" : 200
+        }
+    },
+    "1": 
+    {
+        "name": "plot smoothed gradient",
+        "active" : false,
+        "value" : 
+        {
+            "lookahead ms" : 150,
+            "shift" : 300
+        }
+    },
+    "2": 
+    {
+        "name": "remove linear trend",
+        "active" : false
+    },
+
+    "3": 
+    {
+        "name": "plot bandpass filter",
+        "active" : false,
+        "value" : 
+        {
+            "f_low" : 50,
+            "f_high" : 100
+        }
+    }
+}
